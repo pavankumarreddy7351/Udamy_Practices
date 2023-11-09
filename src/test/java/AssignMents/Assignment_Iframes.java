@@ -1,10 +1,12 @@
-package Automation.Udemy_Practice;
+package AssignMents;
 
 import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
+
+import BaseClass.BaseClass;
 
 public class Assignment_Iframes extends BaseClass{
 	@Test

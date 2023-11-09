@@ -1,10 +1,12 @@
-package Automation.Udemy_Practice;
+package AssignMents;
 
 import java.util.Iterator;
 import java.util.Set;
 
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
+
+import BaseClass.BaseClass;
 
 public class Assignment_WindowHandling extends BaseClass{
 	@Test

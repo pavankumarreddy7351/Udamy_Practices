@@ -1,4 +1,4 @@
-package Automation.Udemy_Practice;
+package AssignMents;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

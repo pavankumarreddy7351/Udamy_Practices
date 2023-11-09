@@ -7,6 +7,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver.Window;
 import org.testng.annotations.Test;
 
+import BaseClass.BaseClass;
+
 public class Practice extends BaseClass{
 	@Test
 	public void multiWindows() {

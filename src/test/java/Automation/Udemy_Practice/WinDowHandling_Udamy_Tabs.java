@@ -6,6 +6,8 @@ import java.util.Set;
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
+import BaseClass.BaseClass;
+
 public class WinDowHandling_Udamy_Tabs extends BaseClass {
 	@Test
 	public void methos() {

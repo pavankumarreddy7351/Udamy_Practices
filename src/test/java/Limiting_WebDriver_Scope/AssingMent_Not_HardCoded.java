@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
-import Automation.Udemy_Practice.BaseClass;
+import BaseClass.BaseClass;
 
 public class AssingMent_Not_HardCoded extends BaseClass{
 	@Test

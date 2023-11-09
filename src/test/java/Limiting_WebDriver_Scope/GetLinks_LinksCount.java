@@ -10,7 +10,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import Automation.Udemy_Practice.BaseClass;
+import BaseClass.BaseClass;
 
 public class GetLinks_LinksCount extends BaseClass{
 	@Test

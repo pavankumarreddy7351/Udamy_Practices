@@ -9,6 +9,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
+import BaseClass.BaseClass;
+
 public class Window_Handling_Tabs extends BaseClass {
 @Test
 public void window() {

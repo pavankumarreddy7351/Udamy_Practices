@@ -1,4 +1,4 @@
-package Automation.Udemy_Practice;
+package AssignMents;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;

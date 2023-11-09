@@ -1,4 +1,4 @@
-package Automation.Udemy_Practice;
+package AssignMents;
 
 import java.time.Duration;
 
