@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Automation.Udemy_Practice.Project_Calander_RealTime">
+      <class name="Window_Handling.MultiWindow_Handling">
         <methods>
-          <include name="calander"/>
           <include name="launchApplication"/>
+          <include name="window"/>
         </methods>
-      </class> <!-- Automation.Udemy_Practice.Project_Calander_RealTime -->
+      </class> <!-- Window_Handling.MultiWindow_Handling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

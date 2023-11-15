@@ -202,9 +202,21 @@
     <version>1.2.5</version>
     <scope>test</scope>
 </dependency>
+<!-- https://mvnrepository.com/artifact/com.github.yev/screenshot -->
+<dependency>
+    <groupId>com.github.yev</groupId>
+    <artifactId>screenshot</artifactId>
+    <version>0.2</version>
+</dependency>
 
 
 
+
+  	<dependency>
+  		<groupId>automation</groupId>
+  		<artifactId>EndToEndCucumber</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 
   <build>

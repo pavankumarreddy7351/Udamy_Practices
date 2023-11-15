@@ -1,4 +1,4 @@
-package InsecureHTTPS_Handle;
+package InsecureHTTPS_Plugins_Screenshots;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
