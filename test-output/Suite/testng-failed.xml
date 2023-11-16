@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="URL" value="https://testng.org/testng-1.0.dtd"/>
+    <classes>
+      <class name="TestNG_FrameWork.TestNG_Parameterized">
+        <methods>
+          <include name="mainTest"/>
+        </methods>
+      </class> <!-- TestNG_FrameWork.TestNG_Parameterized -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

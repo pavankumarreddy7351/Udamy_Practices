@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Window_Handling.MultiWindow_Handling">
+      <class name="TestNG_FrameWork.DataProvider">
         <methods>
-          <include name="launchApplication"/>
-          <include name="window"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- Window_Handling.MultiWindow_Handling -->
+      </class> <!-- TestNG_FrameWork.DataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
