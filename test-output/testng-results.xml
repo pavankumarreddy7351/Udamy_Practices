@@ -1,13 +1,352 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="7" total="38" passed="30" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-16T14:56:31 IST" name="Default suite" finished-at="2023-11-16T14:56:32 IST" duration-ms="487">
+  <suite started-at="2023-11-16T16:42:33 IST" name="Suite" finished-at="2023-11-16T16:42:47 IST" duration-ms="13827">
     <groups>
+      <group name="Regrastion">
+        <method signature="Groups.tes3()[pri:0, instance:TestNG_FrameWork.Groups@34f22f9d]" name="tes3" class="TestNG_FrameWork.Groups"/>
+      </group> <!-- Regrastion -->
+      <group name="Sanity">
+        <method signature="Groups.tes2()[pri:0, instance:TestNG_FrameWork.Groups@34f22f9d]" name="tes2" class="TestNG_FrameWork.Groups"/>
+        <method signature="Test2.test5()[pri:2, instance:TestNG_FrameWork.Test2@22356acd]" name="test5" class="TestNG_FrameWork.Test2"/>
+      </group> <!-- Sanity -->
+      <group name="Smoke">
+        <method signature="Dependces.test3()[pri:0, instance:TestNG_FrameWork.Dependces@1b955cac]" name="test3" class="TestNG_FrameWork.Dependces"/>
+        <method signature="Groups.tes1()[pri:0, instance:TestNG_FrameWork.Groups@34f22f9d]" name="tes1" class="TestNG_FrameWork.Groups"/>
+        <method signature="Groups.tes4()[pri:0, instance:TestNG_FrameWork.Groups@34f22f9d]" name="tes4" class="TestNG_FrameWork.Groups"/>
+        <method signature="Test1.test3()[pri:0, instance:TestNG_FrameWork.Test1@386f0da3]" name="test3" class="TestNG_FrameWork.Test1"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-11-16T14:56:31 IST" name="Default test" finished-at="2023-11-16T14:56:32 IST" duration-ms="487">
+    <test started-at="2023-11-16T16:42:33 IST" name="Test" finished-at="2023-11-16T16:42:47 IST" duration-ms="13827">
+      <class name="TestNG_FrameWork.Groups">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNG_FrameWork.Groups@34f22f9d]" started-at="2023-11-16T16:42:47 IST" name="beforeClass" finished-at="2023-11-16T16:42:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG_FrameWork.Groups@34f22f9d]" started-at="2023-11-16T16:42:47 IST" name="launchApplication" finished-at="2023-11-16T16:42:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="tes1()[pri:0, instance:TestNG_FrameWork.Groups@34f22f9d]" started-at="2023-11-16T16:42:47 IST" name="tes1" finished-at="2023-11-16T16:42:47 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tes1 -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:TestNG_FrameWork.Groups@34f22f9d]" started-at="2023-11-16T16:42:47 IST" name="closeApplication" finished-at="2023-11-16T16:42:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG_FrameWork.Groups@34f22f9d]" started-at="2023-11-16T16:42:47 IST" name="launchApplication" finished-at="2023-11-16T16:42:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="tes2()[pri:0, instance:TestNG_FrameWork.Groups@34f22f9d]" started-at="2023-11-16T16:42:47 IST" name="tes2" finished-at="2023-11-16T16:42:47 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tes2 -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:TestNG_FrameWork.Groups@34f22f9d]" started-at="2023-11-16T16:42:47 IST" name="closeApplication" finished-at="2023-11-16T16:42:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG_FrameWork.Groups@34f22f9d]" started-at="2023-11-16T16:42:47 IST" name="launchApplication" finished-at="2023-11-16T16:42:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="tes3()[pri:0, instance:TestNG_FrameWork.Groups@34f22f9d]" started-at="2023-11-16T16:42:47 IST" name="tes3" finished-at="2023-11-16T16:42:47 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tes3 -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:TestNG_FrameWork.Groups@34f22f9d]" started-at="2023-11-16T16:42:47 IST" name="closeApplication" finished-at="2023-11-16T16:42:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG_FrameWork.Groups@34f22f9d]" started-at="2023-11-16T16:42:47 IST" name="launchApplication" finished-at="2023-11-16T16:42:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="tes4()[pri:0, instance:TestNG_FrameWork.Groups@34f22f9d]" started-at="2023-11-16T16:42:47 IST" name="tes4" finished-at="2023-11-16T16:42:47 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tes4 -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:TestNG_FrameWork.Groups@34f22f9d]" started-at="2023-11-16T16:42:47 IST" name="closeApplication" finished-at="2023-11-16T16:42:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNG_FrameWork.Groups@34f22f9d]" started-at="2023-11-16T16:42:47 IST" name="afterClass" finished-at="2023-11-16T16:42:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestNG_FrameWork.Groups -->
+      <class name="TestNG_FrameWork.BeforeClass_AfterClass">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG_FrameWork.BeforeClass_AfterClass@39655d3e]" started-at="2023-11-16T16:42:46 IST" name="launchApplication" finished-at="2023-11-16T16:42:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="tes1()[pri:0, instance:TestNG_FrameWork.BeforeClass_AfterClass@39655d3e]" started-at="2023-11-16T16:42:46 IST" name="tes1" finished-at="2023-11-16T16:42:46 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tes1 -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:TestNG_FrameWork.BeforeClass_AfterClass@39655d3e]" started-at="2023-11-16T16:42:46 IST" name="closeApplication" finished-at="2023-11-16T16:42:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG_FrameWork.BeforeClass_AfterClass@39655d3e]" started-at="2023-11-16T16:42:46 IST" name="launchApplication" finished-at="2023-11-16T16:42:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="tes2()[pri:0, instance:TestNG_FrameWork.BeforeClass_AfterClass@39655d3e]" started-at="2023-11-16T16:42:46 IST" name="tes2" finished-at="2023-11-16T16:42:46 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tes2 -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:TestNG_FrameWork.BeforeClass_AfterClass@39655d3e]" started-at="2023-11-16T16:42:46 IST" name="closeApplication" finished-at="2023-11-16T16:42:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG_FrameWork.BeforeClass_AfterClass@39655d3e]" started-at="2023-11-16T16:42:46 IST" name="launchApplication" finished-at="2023-11-16T16:42:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="tes3()[pri:0, instance:TestNG_FrameWork.BeforeClass_AfterClass@39655d3e]" started-at="2023-11-16T16:42:46 IST" name="tes3" finished-at="2023-11-16T16:42:46 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tes3 -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:TestNG_FrameWork.BeforeClass_AfterClass@39655d3e]" started-at="2023-11-16T16:42:46 IST" name="closeApplication" finished-at="2023-11-16T16:42:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG_FrameWork.BeforeClass_AfterClass@39655d3e]" started-at="2023-11-16T16:42:46 IST" name="launchApplication" finished-at="2023-11-16T16:42:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="tes4()[pri:0, instance:TestNG_FrameWork.BeforeClass_AfterClass@39655d3e]" started-at="2023-11-16T16:42:46 IST" name="tes4" finished-at="2023-11-16T16:42:46 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tes4 -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:TestNG_FrameWork.BeforeClass_AfterClass@39655d3e]" started-at="2023-11-16T16:42:47 IST" name="closeApplication" finished-at="2023-11-16T16:42:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- TestNG_FrameWork.BeforeClass_AfterClass -->
+      <class name="TestNG_FrameWork.Test1">
+        <test-method signature="test1(java.lang.String)[pri:0, instance:TestNG_FrameWork.Test1@386f0da3]" started-at="2023-11-16T16:42:46 IST" name="test1" finished-at="2023-11-16T16:42:46 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'URL' is required by @Test on method test1 but has not been marked @Optional or defined
+in C:\Users\puchha.pavan\Automation\Udemy_Practice\Listeners.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'URL' is required by @Test on method test1 but has not been marked @Optional or defined
+in C:\Users\puchha.pavan\Automation\Udemy_Practice\Listeners.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:267)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:355)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:888)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:917)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:TestNG_FrameWork.Test1@386f0da3]" started-at="2023-11-16T16:42:46 IST" name="test2" finished-at="2023-11-16T16:42:46 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:TestNG_FrameWork.Test1@386f0da3]" started-at="2023-11-16T16:42:46 IST" name="test3" finished-at="2023-11-16T16:42:46 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- TestNG_FrameWork.Test1 -->
+      <class name="TestNG_FrameWork.Dependces">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG_FrameWork.Dependces@1b955cac]" started-at="2023-11-16T16:42:33 IST" name="launchApplication" finished-at="2023-11-16T16:42:41 IST" duration-ms="7570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="test2()[pri:0, instance:TestNG_FrameWork.Dependces@1b955cac]" started-at="2023-11-16T16:42:41 IST" name="test2" finished-at="2023-11-16T16:42:41 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:TestNG_FrameWork.Dependces@1b955cac]" started-at="2023-11-16T16:42:41 IST" name="test3" finished-at="2023-11-16T16:42:41 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test1()[pri:0, instance:TestNG_FrameWork.Dependces@1b955cac]" started-at="2023-11-16T16:42:41 IST" name="test1" finished-at="2023-11-16T16:42:41 IST" depends-on-methods="TestNG_FrameWork.Dependces.test2, TestNG_FrameWork.Dependces.test3" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- TestNG_FrameWork.Dependces -->
+      <class name="TestNG_FrameWork.TimeOut">
+        <test-method signature="test1()[pri:0, instance:TestNG_FrameWork.TimeOut@31dadd46]" started-at="2023-11-16T16:42:41 IST" name="test1" finished-at="2023-11-16T16:42:46 IST" duration-ms="5021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:TestNG_FrameWork.TimeOut@31dadd46]" started-at="2023-11-16T16:42:46 IST" name="test2" finished-at="2023-11-16T16:42:46 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:0, instance:TestNG_FrameWork.TimeOut@31dadd46]" started-at="2023-11-16T16:42:46 IST" name="test3" finished-at="2023-11-16T16:42:46 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- TestNG_FrameWork.TimeOut -->
+      <class name="TestNG_FrameWork.Test2">
+        <test-method is-config="true" signature="methos()[pri:0, instance:TestNG_FrameWork.Test2@22356acd]" started-at="2023-11-16T16:42:46 IST" name="methos" finished-at="2023-11-16T16:42:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methos -->
+        <test-method signature="test6()[pri:0, instance:TestNG_FrameWork.Test2@22356acd]" started-at="2023-11-16T16:42:46 IST" name="test6" finished-at="2023-11-16T16:42:46 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method is-config="true" signature="methos()[pri:0, instance:TestNG_FrameWork.Test2@22356acd]" started-at="2023-11-16T16:42:46 IST" name="methos" finished-at="2023-11-16T16:42:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methos -->
+        <test-method signature="test4()[pri:1, instance:TestNG_FrameWork.Test2@22356acd]" started-at="2023-11-16T16:42:46 IST" name="test4" finished-at="2023-11-16T16:42:46 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="methos()[pri:0, instance:TestNG_FrameWork.Test2@22356acd]" started-at="2023-11-16T16:42:46 IST" name="methos" finished-at="2023-11-16T16:42:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methos -->
+        <test-method signature="test5()[pri:2, instance:TestNG_FrameWork.Test2@22356acd]" started-at="2023-11-16T16:42:46 IST" name="test5" finished-at="2023-11-16T16:42:46 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- TestNG_FrameWork.Test2 -->
+      <class name="TestNG_FrameWork.Testng_Annotations_Sequence">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestNG_FrameWork.Testng_Annotations_Sequence@2e1ef60]" started-at="2023-11-16T16:42:33 IST" name="beforeSuite" finished-at="2023-11-16T16:42:33 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNG_FrameWork.Testng_Annotations_Sequence@2e1ef60]" started-at="2023-11-16T16:42:41 IST" name="beforeTest" finished-at="2023-11-16T16:42:41 IST" depends-on-methods="BaseClass.BaseClass.launchApplication" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNG_FrameWork.Testng_Annotations_Sequence@2e1ef60]" started-at="2023-11-16T16:42:46 IST" name="beforeClass" finished-at="2023-11-16T16:42:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG_FrameWork.Testng_Annotations_Sequence@2e1ef60]" started-at="2023-11-16T16:42:46 IST" name="beforeMethod" finished-at="2023-11-16T16:42:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test()[pri:0, instance:TestNG_FrameWork.Testng_Annotations_Sequence@2e1ef60]" started-at="2023-11-16T16:42:46 IST" name="test" finished-at="2023-11-16T16:42:46 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG_FrameWork.Testng_Annotations_Sequence@2e1ef60]" started-at="2023-11-16T16:42:46 IST" name="afterMethod" finished-at="2023-11-16T16:42:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNG_FrameWork.Testng_Annotations_Sequence@2e1ef60]" started-at="2023-11-16T16:42:46 IST" name="afterClass" finished-at="2023-11-16T16:42:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG_FrameWork.Testng_Annotations_Sequence@2e1ef60]" started-at="2023-11-16T16:42:47 IST" name="afterTest" finished-at="2023-11-16T16:42:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestNG_FrameWork.Testng_Annotations_Sequence@2e1ef60]" started-at="2023-11-16T16:42:47 IST" name="afterSuite" finished-at="2023-11-16T16:42:47 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestNG_FrameWork.Testng_Annotations_Sequence -->
+      <class name="TestNG_FrameWork.Enabled">
+        <test-method signature="test1()[pri:0, instance:TestNG_FrameWork.Enabled@12f9af83]" started-at="2023-11-16T16:42:46 IST" name="test1" finished-at="2023-11-16T16:42:46 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test3()[pri:0, instance:TestNG_FrameWork.Enabled@12f9af83]" started-at="2023-11-16T16:42:46 IST" name="test3" finished-at="2023-11-16T16:42:46 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- TestNG_FrameWork.Enabled -->
+      <class name="TestNG_FrameWork.BeforeMethod_AfterMethod">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestNG_FrameWork.BeforeMethod_AfterMethod@4ed5eb72]" started-at="2023-11-16T16:42:46 IST" name="beforeClass" finished-at="2023-11-16T16:42:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG_FrameWork.BeforeMethod_AfterMethod@4ed5eb72]" started-at="2023-11-16T16:42:46 IST" name="launchApplication" finished-at="2023-11-16T16:42:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="tes1()[pri:0, instance:TestNG_FrameWork.BeforeMethod_AfterMethod@4ed5eb72]" started-at="2023-11-16T16:42:46 IST" name="tes1" finished-at="2023-11-16T16:42:46 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tes1 -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:TestNG_FrameWork.BeforeMethod_AfterMethod@4ed5eb72]" started-at="2023-11-16T16:42:46 IST" name="closeApplication" finished-at="2023-11-16T16:42:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG_FrameWork.BeforeMethod_AfterMethod@4ed5eb72]" started-at="2023-11-16T16:42:46 IST" name="launchApplication" finished-at="2023-11-16T16:42:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="tes2()[pri:0, instance:TestNG_FrameWork.BeforeMethod_AfterMethod@4ed5eb72]" started-at="2023-11-16T16:42:46 IST" name="tes2" finished-at="2023-11-16T16:42:46 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tes2 -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:TestNG_FrameWork.BeforeMethod_AfterMethod@4ed5eb72]" started-at="2023-11-16T16:42:46 IST" name="closeApplication" finished-at="2023-11-16T16:42:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG_FrameWork.BeforeMethod_AfterMethod@4ed5eb72]" started-at="2023-11-16T16:42:46 IST" name="launchApplication" finished-at="2023-11-16T16:42:46 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="tes3()[pri:0, instance:TestNG_FrameWork.BeforeMethod_AfterMethod@4ed5eb72]" started-at="2023-11-16T16:42:46 IST" name="tes3" finished-at="2023-11-16T16:42:46 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tes3 -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:TestNG_FrameWork.BeforeMethod_AfterMethod@4ed5eb72]" started-at="2023-11-16T16:42:46 IST" name="closeApplication" finished-at="2023-11-16T16:42:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:TestNG_FrameWork.BeforeMethod_AfterMethod@4ed5eb72]" started-at="2023-11-16T16:42:46 IST" name="launchApplication" finished-at="2023-11-16T16:42:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="tes4()[pri:0, instance:TestNG_FrameWork.BeforeMethod_AfterMethod@4ed5eb72]" started-at="2023-11-16T16:42:46 IST" name="tes4" finished-at="2023-11-16T16:42:46 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tes4 -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:TestNG_FrameWork.BeforeMethod_AfterMethod@4ed5eb72]" started-at="2023-11-16T16:42:46 IST" name="closeApplication" finished-at="2023-11-16T16:42:46 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:TestNG_FrameWork.BeforeMethod_AfterMethod@4ed5eb72]" started-at="2023-11-16T16:42:46 IST" name="afterClass" finished-at="2023-11-16T16:42:46 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestNG_FrameWork.BeforeMethod_AfterMethod -->
       <class name="TestNG_FrameWork.DataProvider">
-        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:TestNG_FrameWork.DataProvider@3b96c42e]" started-at="2023-11-16T14:56:31 IST" name="test1" data-provider="getData" finished-at="2023-11-16T14:56:31 IST" duration-ms="167" status="PASS">
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:TestNG_FrameWork.DataProvider@3a4621bd]" started-at="2023-11-16T16:42:41 IST" name="test1" data-provider="getData" finished-at="2023-11-16T16:42:41 IST" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +362,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:TestNG_FrameWork.DataProvider@3b96c42e]" started-at="2023-11-16T14:56:31 IST" name="test1" data-provider="getData" finished-at="2023-11-16T14:56:31 IST" duration-ms="4" status="PASS">
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:TestNG_FrameWork.DataProvider@3a4621bd]" started-at="2023-11-16T16:42:41 IST" name="test1" data-provider="getData" finished-at="2023-11-16T16:42:41 IST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +378,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:TestNG_FrameWork.DataProvider@3b96c42e]" started-at="2023-11-16T14:56:31 IST" name="test1" data-provider="getData" finished-at="2023-11-16T14:56:31 IST" duration-ms="10" status="PASS">
+        <test-method signature="test1(java.lang.String,java.lang.String)[pri:0, instance:TestNG_FrameWork.DataProvider@3a4621bd]" started-at="2023-11-16T16:42:41 IST" name="test1" data-provider="getData" finished-at="2023-11-16T16:42:41 IST" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -55,11 +394,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:TestNG_FrameWork.DataProvider@3b96c42e]" started-at="2023-11-16T14:56:31 IST" name="test2" finished-at="2023-11-16T14:56:32 IST" duration-ms="8" status="PASS">
+        <test-method signature="test2()[pri:0, instance:TestNG_FrameWork.DataProvider@3a4621bd]" started-at="2023-11-16T16:42:41 IST" name="test2" finished-at="2023-11-16T16:42:41 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
       </class> <!-- TestNG_FrameWork.DataProvider -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

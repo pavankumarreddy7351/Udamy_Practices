@@ -3,7 +3,9 @@ package TestNG_FrameWork;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class Test1 {
+import BaseClass.BaseClass;
+
+public class Test1 extends BaseClass {
 	@Parameters({ "URL" })
 	@Test
 	public void test1(String Url) {

@@ -6,7 +6,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class Groups {
+import BaseClass.BaseClass;
+
+public class Groups extends BaseClass {
 	@BeforeClass
 	public void beforeClass() {
 		System.out.println("before Class");

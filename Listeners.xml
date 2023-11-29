@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="TestNG_FrameWork.Listeners"></listener>
+	</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNG_FrameWork.Dependces"/>
+      <class name="TestNG_FrameWork.DataProvider"/>
+      <class name="TestNG_FrameWork.TimeOut"/>
+      <class name="TestNG_FrameWork.BeforeMethod_AfterMethod"/>
+      <class name="TestNG_FrameWork.Enabled"/>
+      <class name="TestNG_FrameWork.Testng_Annotations_Sequence"/>
+      <class name="TestNG_FrameWork.Test2"/>
+      <class name="TestNG_FrameWork.Test1"/>
+      <class name="TestNG_FrameWork.BeforeClass_AfterClass"/>
+      <class name="TestNG_FrameWork.Groups"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

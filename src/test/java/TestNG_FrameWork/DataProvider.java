@@ -2,8 +2,10 @@ package TestNG_FrameWork;
 
 import org.testng.annotations.Test;
 
+import BaseClass.BaseClass;
 
-public class DataProvider {
+
+public class DataProvider extends BaseClass {
 	@Test(dataProvider = "getData")
 	public void test1(String userName, String passWord) {
 		System.out.println("1st person "+userName+" "+passWord);

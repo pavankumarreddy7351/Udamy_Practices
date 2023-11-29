@@ -6,7 +6,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class BeforeMethod_AfterMethod {
+import BaseClass.BaseClass;
+
+public class BeforeMethod_AfterMethod extends BaseClass {
 	@BeforeClass
 	public void beforeClass() {
 		System.out.println("before Class");

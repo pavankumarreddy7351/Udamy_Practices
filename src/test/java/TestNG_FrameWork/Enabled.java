@@ -2,7 +2,9 @@ package TestNG_FrameWork;
 
 import org.testng.annotations.Test;
 
-public class Enabled {
+import BaseClass.BaseClass;
+
+public class Enabled extends BaseClass{
 
 	@Test(enabled = true)
 	public void test1() {

@@ -2,7 +2,9 @@ package TestNG_FrameWork;
 
 import org.testng.annotations.Test;
 
-public class Dependces {
+import BaseClass.BaseClass;
+
+public class Dependces extends BaseClass {
 	
 		@Test(dependsOnMethods = {"test2","test3"})
 		public void test1() {

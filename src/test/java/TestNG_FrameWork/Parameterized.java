@@ -3,7 +3,9 @@ package TestNG_FrameWork;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class TestNG_Parameterized {
+import BaseClass.BaseClass;
+
+public class Parameterized extends BaseClass{
 	
 	
 	@Parameters({"URL","url"})

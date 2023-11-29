@@ -2,7 +2,9 @@ package TestNG_FrameWork;
 
 import org.testng.annotations.Test;
 
-public class TimeOut {
+import BaseClass.BaseClass;
+
+public class TimeOut extends BaseClass{
 	@Test(timeOut = 10000)
 	public void test1() throws Exception {
 		Thread.sleep(5000);
